@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/Rainbow.png"/>
+    <title>ClimateApiDash</title>
+</head>
+
+<body>
+
+    <header class="bg-warning text-black text-center p-5">
+        <h1>Climate Api Dashboard</h1>
+    </header>
+
+    <main class="mainContainer">
+        <div class="row">
+            <div class="col-12 col-md-3 p-2 search-column">
+                <form class="border p-3" id="cityForm">
+                    <h2>Input Location</h2>
+                    <input id="cityInput" type="text" autofocus="true" class="form-input"/><br><br>
+                    <button class="btn btn-primary" type="submit">Generate</button>
+                </form>
+                <div class="past-search border" id="buttonsSearched"></div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class="row border selected-city" id="current-forecast">
+                    <div class="col-12">
+                        <h2 id="citySearched-"></h2>
+                        <div class="list-group" id="weatherContainer" ></div>
+                    </div>  
+                </div>
+                <div class="row border" id="five-day-forecast">
+                        <h2 class="col-12" id="forecastContainer"></h2>
+                        <div class="d-flex" id="forecast4Days"></div>
+                </div>  
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search-column{
+    background-color:	#ffffff;
+}
+
+.btn {
+    background-color: orange;
+    color: black;
+    font-weight: 600;   
+    border: none; 
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    border-color: #000000;
+    color: #fff;
+}
+
+span.favorable{
+    padding: 3px;
+    background-color: green;
+    color:white;
+}
+
+span.moderate{
+    padding: 3px;
+    background-color: yellow;
+}
+
+span.severe{
+    padding: 3px;
+    background-color: rgb(197, 0, 0);
+    color:white;
+}
+
+.list-group-item{
+    line-height: 0.5;
+    border: none;
+}
+.card-body{
+    flex:auto
+}
+
+.card-header {
+    background-color: orange;
+    color: #000000;
+}
+
+.card-body {
+    background-color: rgb(153, 247, 253);
+    color: #000000;  
+}

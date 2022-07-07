@@ -13,8 +13,8 @@ SO THAT I can plan a trip accordingly
 Using Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. 
 Developers are often tasked with retrieving data from another application's API and using it in the context of their own. 
 
- - [For a full web description of the ClimateApiDash](...)
- - [For a full github description of the ClimateApiDash](...)
+ - [For a full web description of the ClimateApiDash](https://bonda3vaax.github.io/ClimateApiDash/)
+ - [For a full github description of the ClimateApiDash](https://github.com/Bonda3Vaax/ClimateApiDash)
 
 # Features
 
@@ -49,7 +49,7 @@ This project requires:
 
 ## Installation
 
-SimpleCalendar requires Visual Studio Code and Chrome Browser in this case, to be installed.   
+ClimateApiDash requires Visual Studio Code and Chrome Browser in this case, to be installed.   
 
 - [Visual Studio Code](https://code.visualstudio.com/Download)
 
